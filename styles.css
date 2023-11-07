@@ -4,7 +4,7 @@ img {
   margin-right: auto;
 }
 
-button {
+input[type=button] {
   background-color: green;
   border: none;
   color: white;
