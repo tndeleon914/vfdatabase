@@ -1,4 +1,7 @@
-img {
+html {
+  background-color: green;
+}
+.logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
