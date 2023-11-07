@@ -22,11 +22,6 @@ body {
   margin: 0 auto;
 }
 
-.image img {
-  max-width: 300px;
-  margin: 10px auto;
-}
-
 .form form{
   margin: 20px auto;
   max-width: 300px;
