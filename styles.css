@@ -17,7 +17,7 @@ position: relative;
   float: left;
 }
 
-.logo img {
+.logo {
   background: white;
   float: left;
   margin-top: -20px;
