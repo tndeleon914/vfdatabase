@@ -1,25 +1,11 @@
-body {
-  background-color: white;
-  font-family: Arial;
+.flexbox-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  margin: 0;
-}
-
-.login-box {
-position: relative;
-  background: white;
-  width: 410px;
-  padding: 20px 20px 0 481px;
-  margin: 0 0 0 0;
-  float: left;
 }
 
 .logo {
   background: white;
-  float: left;
+  float: right;
   margin-top: -20px;
   width: 500px;
   position: absolute;
