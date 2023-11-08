@@ -1,5 +1,5 @@
 .button-64 {
-  background-color: #04AA6D;
+  background-color: #77bd1e;
   border: 2px solid black;
   color: white;
   padding: 15px 32px;
@@ -34,5 +34,5 @@ text-decoration: none;
 }
 
 li a:hover {
-background-color: #04AA6D
+background-color: #77bd1e;
 }
