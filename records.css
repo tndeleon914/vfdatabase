@@ -1,5 +1,6 @@
-table, th, td {
+table, tr, th {
   border: 2px solid;
+  text-align: center;
 }
 
 table {
@@ -10,7 +11,4 @@ th {
   height: 50px;
 }
 
-td {
-  text-align: center;
-}
 
