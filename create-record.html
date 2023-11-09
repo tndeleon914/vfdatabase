@@ -18,7 +18,9 @@
     <h1>VILLAGE FARMS DATABASE LOGIN PORTAL</h1>
 
     <h3>Create New Record</h3>
-  <form>
+
+    <!-- form to create new record -->
+    <form>
     <input type="radio" id="supplier" name="database" value="supplier">
   <label for="html">Supplier</label><br>
   <input type="radio" id="parent" name="database" value="parent">
@@ -39,18 +41,21 @@
   <input type="email" id="primary-email" name="primary-email"><br>
     <label for="primary-number">Primary Contact Number:</label><br>
   <input type="text" id="primary-number" name="primary-number"><br><br>
+</form>
+    
+    <!-- form to upload documents -->
     <form action="/action_page.php">
       <label for="file-1">Upload Audit Report:</label>
   <input type="file" id="audit-report" name="filename">
-  <input type="submit">
+  <input type="submit"><br><br>
       <label for="file-2">Upload Certificate:</label>
   <input type="file" id="certificate" name="filename">
-  <input type="submit">
+  <input type="submit"><br><br>
       <label for="file-3">Upload Corrective Actions:</label>
   <input type="file" id="corrective-action" name="filename">
   <input type="submit">
-</form>
   </form>
+
 
    
 
