@@ -13,7 +13,7 @@
 
     <nav>
         <ul>
-            <li><a href="#home">HOME</a></li>
+            <li><a href="https://tndeleon914.github.io/vfdatabase/home.html">HOME</a></li>
             <li><a href="#dashboard">DASHBOARD</a></li>
             <li><a href="#audits">AUDITS & CERTIFICATES</a></li>
             <li><a href="#standards">GRADE STANDARDS</a></li>
@@ -32,17 +32,36 @@
       <label for="supplier-name">Supplier Name:</label><br>
     <input type="text" id="supplier-name" name="supplier-name"><br>
       <label for="parent-name">Parent Name:</label><br>
-    <input type="text" id="parent-name" name="parent-name"><br>
+    <input type="text" id="parent-name" name="parent-name"><br><br>
       <label for="country">Country:</label>
 <select name="country" id="country">
+  <option value="select-one">Select One</option>
   <option value="united-states">United States</option>
   <option value="canada">Canada</option>
   <option value="mexico">Mexico</option>
 </select></br><br>
       <label for="status">Status:</label>
 <select name="status" id="status">
+  <option value="select-one">Select One</option>
   <option value="inactive">Inactive</option>
   <option value="active">Active</option>
+</select>
+      <br></br>
+      <label for="facility-type">Facility Type:</label>
+<select name="facility" id="facility">
+  <option value="select-one">Select One</option>
+  <option value="greenhouse">Greenhouse</option>
+  <option value="grower">Grower</option>
+  <option value="packhouse">Packhouse</option>
+  <option value="distributor">Distributor</option>
+</select>
+      <br></br>
+      <label for="grade">Grade:</label>
+<select name="grade" id="grade">
+  <option value="select-one">Select One</option>
+  <option value="green">Green</option>
+  <option value="orange">Orange</option>
+  <option value="red">Red</option>
 </select>
       <br></br>
       <button type="submit">SEARCH</button></a>
