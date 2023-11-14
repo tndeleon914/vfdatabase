@@ -27,17 +27,15 @@ hr.rounded {
   border-radius: 8px;
 }
 
-table, tr, th {
-  border: 2px solid;
-  text-align: center;
-}
+ table {
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-table {
-  width: 100%;
-}
-
-th {
-  height: 50px;
-}
+th, td {
+border: 1px solid #dddddd;
+text-align: left;
+padding: 8px;
+        }
 
 
