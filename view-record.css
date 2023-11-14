@@ -21,3 +21,29 @@ text-decoration: none;
 li a:hover {
 background-color: #77bd1e;
 }
+
+hr.rounded {
+  border-top: 10px solid #77bd1e;
+  border-radius: 8px;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+tr:hover {background-color: #ddd;}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
