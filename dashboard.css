@@ -1,6 +1,6 @@
 /* Sidebar styles */
 aside {
-    background-color: #555;
+    background-color: #333;
     color: #fff;
     width: 250px;
     min-height: 100vh; /* Updated */
@@ -59,7 +59,6 @@ h1 {
 
 .cards {
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
     gap: 20px;
 }
