@@ -5,3 +5,7 @@
   flex-direction: column;
   align-content: center;
 }
+
+body {
+  color: #77bd1e;
+}
