@@ -23,8 +23,8 @@ background-color: #77bd1e;
 }
 
 hr.rounded {
-  border-top: 20px solid #77bd1e;
-  border-radius: 8px;
+  border-top: 10px solid #77bd1e;
+  border-radius: 5px;
 }
 
  table {
@@ -33,7 +33,7 @@ hr.rounded {
         }
 
 th, td {
-border: 1px solid #dddddd;
+border: 1px solid #767B75;
 text-align: left;
 padding: 8px;
         }
