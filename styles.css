@@ -11,6 +11,10 @@
   color: #77bd1e;
 }
 
+#header p {
+  text-align: center;
+}
+
 #header {
   margin-bottom: 50px;
 }
@@ -38,7 +42,6 @@ font: 50px Segoe UI;
 }
 
 input {
-  display: block;
   width: 300px;
   padding: 20px;
   margin: 10px;
