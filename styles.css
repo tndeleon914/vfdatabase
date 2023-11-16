@@ -2,10 +2,5 @@
   display: flex;
   justify-content:center;
   color: #77bd1e;
-  flex-direction: column;
-  align-content: center;
 }
 
-body {
-  color: #77bd1e;
-}
