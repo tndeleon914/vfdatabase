@@ -21,3 +21,7 @@ text-decoration: none;
 li a:hover {
 background-color: #77bd1e;
 }
+
+.box {
+  display: flex;
+}
