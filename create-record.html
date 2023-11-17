@@ -14,8 +14,8 @@
     <nav>
         <ul>
             <li><a href="https://tndeleon914.github.io/vfdatabase/home.html">HOME</a></li>
-            <li><a href="#dashboard">DASHBOARD</a></li>
-            <li><a href="#audits">AUDITS & CERTIFICATES</a></li>
+            <li><a href="https://tndeleon914.github.io/vfdatabase/dashboard.html">DASHBOARD</a></li>
+            <li><a href="https://tndeleon914.github.io/vfdatabase/records.html">AUDITS & CERTIFICATES</a></li>
             <li><a href="#standards">GRADE STANDARDS</a></li>
             <li><a href="#food-safety">FOOD SAFETY</a></li>
             <li><a href="#inspections">INSPECTIONS</a></li>
@@ -26,6 +26,8 @@
     <h3>Create New Record</h3>
 
     <!-- form to create new record -->
+    <div class="box">
+      <div>
     <form>
     <input type="radio" id="supplier" name="database" value="supplier">
   <label for="html">Supplier</label><br>
@@ -48,8 +50,13 @@
     <label for="primary-number">Primary Contact Number:</label><br>
   <input type="text" id="primary-number" name="primary-number"><br><br>
 </form>
-    
-    <!-- form to upload documents -->
+      </div>
+    </div>
+
+    <div class="box">
+            <div>
+              
+<!-- form to upload documents -->
     <form action="/action_page.php">
       <label for="file-1">Upload Audit Report:</label><br>
   <input type="file" id="audit-report" name="filename">
@@ -73,10 +80,9 @@
   <input type="file" id="code-conduct" name="filename">
   <input type="submit"><br><br>
   </form>
-
-
-   
-
+            </div>
+    </div>
+    
  
 </body>
 </html>
